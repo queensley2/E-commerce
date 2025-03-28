@@ -1,0 +1,168 @@
+.banner {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 5px;
+    border: 1px;
+    padding-left: 64px;
+    // justify-content: center;
+    align-items: center;
+    height: 52px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  &__action {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    gap: 32px;
+    padding-right: 64px;
+  }
+  &__social {
+    display: flex;
+    gap: 12px;
+    & img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  &__language {
+    display: flex;
+    gap: 8px;
+
+    & img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  &__login {
+    display: flex;
+    gap: 8px;
+  }
+}
+
+.navbar {
+  &__box {
+    display: flex;
+    padding-left: 64px;
+    padding-bottom: 12px;
+    height: 50px;
+    width: fixed;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & img {
+      width: 33px;
+      height: 30px;
+    }
+    & p {
+      font-size: 25px;
+      font-weight: 700;
+    }
+  }
+  &__pages {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    padding-right: 64px;
+    align-items: center;
+    gap: 32px;
+  }
+  &__links {
+    display: flex;
+    gap: 32px;
+    & a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  &__tools {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    & input {
+      width: 126px;
+      height: 40px;
+      border-radius: 5px;
+    }
+  }
+  &__button {
+    display: flex;
+    gap: 32px;
+  }
+  &__wishlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.home {
+  &__column {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-left: 64px;
+  }
+  &__head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+
+    & h1 {
+      font-size: 56px;
+      font-weight: 700;
+    }
+  }
+}
+.click-button {
+  display: flex;
+  gap: 16px;
+  &__shop {
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 126px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+.about {
+  display: flex;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  padding-left: 64px;
+  &__section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & img {
+    position: absolute;
+    right: 0px;
+    padding-right: 64px;
+  }
+}
