@@ -3,11 +3,13 @@
     padding: 0;
 }
 
-body{
-    margin: 70px;
-    padding-left: 64px;
-}
+
+
 .banner-container{
+    display: flex;
+    flex-direction: row;
+}
+.banner-content{
     display: flex;
     flex-direction: row;
 }
